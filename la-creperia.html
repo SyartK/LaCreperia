@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Creperia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-yellow-500 text-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">La Creperia</h1>
+            <nav>
+                <ul class="flex space-x-4 max-sm:invisible md:visible">
+                    <li><a href="#menu" class="hover:text-yellow-200">Menu</a></li>
+                    <li><a href="#about" class="hover:text-yellow-200">Rreth Nesh</a></li>
+                    <li><a href="#location" class="hover:text-yellow-200">Vendndodhja</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-200">Kontakto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-14 mx-auto px-4 py-8">
+        <section class="mb-8 text-center space-y-4">
+            <h2 class="text-4xl font-bold mb-4">Mirësevini në La Creperia!</h2>
+            <p class="text-gray-700">Shijoni krepat më të shijshme në qytet, të bëra me dashuri dhe përbërës të freskët.</p>
+            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4"><a href="#menu">Shiko Menunë</a></button>
+        </section>
+
+        <section id="menu" class="mt-28 mb-8">
+            <h2 class="text-3xl font-semibold mb-4 text-center">Menuja Jonë</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2023/02/nutella-crepes.jpeg" alt="Krepa me Çokollatë" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa me Çokollatë</h3>
+                    <p class="text-gray-600">Krepa të mbushura me çokollatë të shijshme.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>                
+                </div>
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://www.dinneratthezoo.com/wp-content/uploads/2015/08/nutella-crepes.jpg" alt="Krepa me Fruta" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa me Fruta</h3>
+                    <p class="text-gray-600">Krepa të freskëta me fruta të stinës.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>  
+                </div>
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://eatingeuropean.com/wp-content/uploads/2017/06/Ham-and-cheese-crepes-5-500x375.jpg" alt="Krepa të kripura" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa të kripura</h3>
+                    <p class="text-gray-600">Krepa të shijshme me proshutë dhe djathë.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>  
+                </div>
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://bakewithshivesh.com/wp-content/uploads/2023/06/unnamed-5.jpg" alt="Krepa me Nutella dhe banane" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa me Nutella dhe banane</h3>
+                    <p class="text-gray-600">Kombinimi i përsosur, Nutella dhe banane.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>  
+                </div>
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://www.jocooks.com/wp-content/uploads/2014/05/nutella-berry-crepes-1-500x500.jpg" alt="Krepa me luleshtrydhe" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa me luleshtrydhe</h3>
+                    <p class="text-gray-600">Krepa te freskëta me luleshtrydhe.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>  
+                </div>
+                <div class="bg-white rounded-lg shadow p-4 transition-all duration-300 hover:border-4 hover:border-yellow-400 hover:scale-105">
+                    <img src="https://mado.az/uploads/product/830/Special_krep_1723275811.jpg" alt="Krepa Speciale" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Krepa Speciale</h3>
+                    <p class="text-gray-600">Krepa të personalizuara sipas dëshirës suaj.</p>
+                    <div class="flex justify-center">
+                        <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-4">
+                            <a href="#contact">Porosit</a>
+                        </button>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="about" class="mt-48 space-y-8 px-4 sm:px-6 lg:px-12 py-16">
+            <div class="max-w-3xl mx-auto text-center bg-white shadow-lg rounded-xl p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <h2 class="text-4xl font-semibold text-gray-800 mb-6">Rreth Nesh</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    La Creperia është më shumë se një vend për të shijuar krep të shijshëm dhe të freskët. Është një përvojë unike që ofron ngrohtësi, shije të papërshkrueshme dhe kujdes të veçantë për çdo detaj. Ne përdorim vetëm përbërës të freskët dhe të cilësisë më të lartë për të krijuar pjatat më të mira, gjithmonë me pasion dhe dedikim.
+                </p>
+                <p class="text-lg text-gray-600">
+                    Këtu, ne besojmë se secili krepa duhet të jetë një eksperiencë që ju bën të ndiheni mirë. Me një menu të pasur dhe të larmishme, nga krepat e ëmbël deri tek ato të kripura, çdo pjatë është një moment i veçantë që na lejon të ndajmë me ju dashurinë për gatimin dhe krijimin e shijeve të reja. Shijoni çdo çast dhe lejoni që La Creperia të bëhet pjesë e kujtimeve tuaja më të bukura.
+                </p>
+            </div>
+        </section>
+
+        <section id="location" class=" mt-48 mb-8 space-y-4">
+            <h2 class="text-3xl font-semibold mb-4 text-center">Vendndodhja</h2>
+            <p class="text-gray-700 text-center">Rruga "Sheshi Nënë Tereza" Nr. 12, Prishtinë.</p>
+            <div class="flex justify-center mt-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.175118544465!2d21.166318975972365!3d42.66014457106067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f168019e09d%3A0x6a0a09e07293b134!2sSheshi%20N%C3%ABn%C3%AB%20Tereza!5e0!3m2!1ssq!2s!4v1704285871261!5m2!1ssq!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full md:w-2/3 rounded-lg shadow-lg"></iframe>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-80 mb-80 bg-yellow-100 rounded-lg p-6 space-y-4">
+            <h2 class="text-2xl font-semibold mb-4 text-center"> Porosit Krepin Tuaj</h2>
+            <form class="max-w-md mx-auto space-y-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Emri</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Emri juaj">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email juaj">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Porosija</label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Porosija juaj"></textarea>
+                </div>
+                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Porosit</button>
+            </form>
+        </section>
+                
+    </main>
+                
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2025 La Creperia. Të gjitha të drejtat e rezervuara.</p>
+    </footer>
+                
+</body>
+</html>
